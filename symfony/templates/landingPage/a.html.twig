@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ozzo - the game is yours</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('landingPage/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="{{ asset('landingPage/vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('landingPage/vendor/simple-line-icons/css/simple-line-icons.css') }}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,300italic,400italic,700italic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('landingPage/css/landing-page.min.css') }}" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('landingPage/img/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('landingPage/img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('landingPage/img/favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('landingPage/img/favicon/site.webmanifest') }}/">
+    <link rel="mask-icon" href="{{ asset('landingPage/img/favicon/safari-pinned-tab.svg') }}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-light navbar-expand-lg fixed-top navbar-left bg-light ozzo-navbar" id="main-nav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#join">
+            <img class="ozzo-logo" src="{{ asset('landingPage/img/ozzo.png') }}"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ozzo-mobile-nav" id="navbarResponsive">
+            <ul class="navbar-nav alt-font ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://goo.gl/forms/DD2c9loTZQiJbZc03">Join beta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#how">How it works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#who">Who we are</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Masthead -->
+<header class="masthead text-white text-center" id="join">
+    <div class="parallax"></div>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 mx-auto title">
+                <h1>Play with AI & make it earn Crypto for you</h1>
+            </div>
+            <div class="col-xl-10 mx-auto masthead-sub-title">
+                <h4>Evolve it, Test it and Run it.
+                    <span class="text-emphasis d-block d-lg-inline">No tech knowledge required.</span>
+                </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                <form>
+                    <div class="form-row">
+                        <div class="col-xl-4 mx-auto">
+                            <a href="https://goo.gl/forms/DD2c9loTZQiJbZc03" class="btn btn-block btn-lg btn-light">Get early access</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="intersection">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+    </div>
+</header>
+
+<!-- Icons Grid -->
+<section class="features-icons bg-light text-center" id="how">
+    <div class="container">
+        <div class="row" >
+            <div class="col-lg-9 m-auto">
+                <h1>How it works ?</h1>
+                <h4 class="sub-title">Creating an ozzo trading bot is like "The Sims" meets "Pokemon"</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <img src="{{ asset('landingPage/img/icons-ux.png') }}" class="m-auto">
+                    </div>
+                    <h4>No complicated chit-chat</h4>
+                    <p class="lead mb-0">You don't need Maths, code knowledge or any finance classes to make it work</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <img src="{{ asset('landingPage/img/icons-podium.png') }}" class="m-auto">
+                    </div>
+                    <h4>Play & Experiment</h4>
+                    <p class="lead mb-0">Create or join a competition to compare your AI and build a strong brand image and notoriety</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <img src="{{ asset('landingPage/img/icons-exchange.png') }}" class="m-auto">
+                    </div>
+                    <h4>Exchange</h4>
+                    <p class="lead mb-0">Run your tested trading bot in the real world trading Marketplaces. Make it earn real Crypto</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- blockquote -->
+
+<section class="blockquote">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 quote" >
+                <strong>Intelligence is the ability to adapt to change </strong>
+            </div>
+            <div class="col-xl-12 blockquote-footer author">
+                Stephen Hawking
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Image Showcases -->
+<section class="showcase">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xl-6 showcase-text showcase-text--left">
+                <span class="text-bold">Crypto markets are ever-changing </span>ecosystems. Thus common strategies become unsuitable!
+            </div>
+            <div class="col-xl-6 showcase-img">
+                <img src="{{ asset('landingPage/img/chart.png') }}" class="img-responsive center-block w-100">
+            </div>
+        </div>
+
+        <div class="row showcase-first-line">
+            <div class="col-xl-6 order-xl-2 showcase-text">
+                In Biology, <span class="text-bold">the best strategy</span> to deal with changes is <span class="text-bold">Evolution</span>. </br>Let's use it.
+            </div>
+            <div class="col-xl-6 order-xl-1 showcase-img">
+                <img src="{{ asset('landingPage/img/human_evolution.png') }}" class="w-100">
+            </div>
+        </div>
+        <div class="row showcase-second-line">
+            <div class="col-xl-6 showcase-text showcase-text--left">
+                <span class="text-bold">Mutation</span>, <span class="text-bold">reproduction</span> and
+                <span class="text-bold">selection</span> will make your <span class="text-bold">AI smarter</span>.
+            </div>
+            <div class="col-xl-6 showcase-img">
+                <img src="{{ asset('landingPage/img/ozzobots.png') }}" class="img-responsive center-block w-100">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Team -->
+<section class="team text-center" id="who">
+    <div class="container">
+        <h1 class="mb-5">Who we are ?</h1>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="team-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="{{ asset('landingPage/img/anas.jpg') }}" alt="anas">
+                    <h5>Anas</h5>
+                    <h6>Software Architect</h6>
+                    <p class="font-weight-light mb-0">Working for more than 12 years in the IT industry,
+                        Anas is a crypto enthusiast, blockchain developer and trader for several years.</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="team-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="{{ asset('landingPage/img/hugo.jpg') }}" alt="hugo">
+                    <h5>Hugo</h5>
+                    <h6>Communication black ops</h6>
+                    <p class="font-weight-light mb-0">"Hugo is crypto enthusiast and digital marketing specialist operating in the startup sphere since 2012."</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="team-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="{{ asset('landingPage/img/simon.jpg') }}" alt="simon">
+                    <h5>Simon</h5>
+                    <h6>UX/UI Expert</h6>
+                    <p class="font-weight-light mb-0">"Simon his created unique visual identities for many companies. His goal is to offer you the most eficient user experience"</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="team-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-3" src="{{ asset('landingPage/img/rafik.jpg') }}" alt="rafik">
+                    <h5>Rafik</h5>
+                    <h6>AI Expert</h6>
+                    <p class="font-weight-light mb-0">"Been working on AI and following cryptos for the last 5 years."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our mission -->
+<section class="our-mission">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <h1>Our mission</h1>
+                <h2 class="sub-title">Help you believe in your automatic trading strategy</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="call-to-action text-white text-center">
+    <div class="parallax"></div>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h2 class="mb-4">Ready to join the evolution experiment ?</h2>
+            </div>
+            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                <form>
+                    <div class="form-row">
+                        <div class="col-xl-4 mx-auto">
+                            <a href="https://goo.gl/forms/DD2c9loTZQiJbZc03" class="btn btn-block btn-lg btn-primary">Get early access</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-4 ozzo-col-spacing text-center text-lg-left">
+                <ul class="list-inline mb-2">
+                    <li class="list-inline-item">
+                        <a href="mailto:contcat@ozzo.io">Contact</a>
+                    </li>
+                </ul>
+                <p class="text-muted small">&copy; ozzo.io | 2018. All Rights Reserved.</p>
+            </div>
+            <div class="col-xs-12 col-lg-4 ozzo-col-spacing text-center">
+                <img class="french-tech-logo" src="{{ asset('landingPage/img/ft_logo.jpg') }}">
+            </div>
+
+            <div class="col-xs-12 col-lg-4 ozzo-col-spacing text-center text-lg-right">
+                <div class="col-xs-12 text-center text-lg-right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item mr-3">
+                            <a href="https://www.facebook.com/ozzo.io/">
+                                <i class="fa fa-facebook fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="https://twitter.com/ozzo_io">
+                                <i class="fa fa-twitter fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://t.me/ozzoio">
+                                <i class="fa fa-telegram fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="{{ asset('landingPage/vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('landingPage/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('landingPage/vendor/jquery-easing/jquery.easing.1.3.umd.min.js') }}"></script>
+<script src="{{ asset('landingPage/js/scrolling-nav.js') }}"></script>
+</body>
+</html>
